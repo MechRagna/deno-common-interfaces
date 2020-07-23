@@ -1,1 +1,1 @@
-export { ResponseOk, ResponseErr } from "./response.ts";
+export { IResponseOk, IResponseErr } from "./response.ts";

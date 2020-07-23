@@ -1,10 +1,10 @@
-interface ResponseOk {
+interface IResponseOk {
   status: boolean,
   message?: string,
   results: object
 };
 
-interface ResponseErr {
+interface IResponseErr {
   status: boolean,
   code: string,
   message: string,
@@ -18,4 +18,4 @@ interface ResponseErr {
 //   stack?: object
 // };
 
-export { ResponseOk, ResponseErr };
+export { IResponseOk, IResponseErr };

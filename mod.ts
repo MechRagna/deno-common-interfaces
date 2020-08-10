@@ -1,2 +1,2 @@
-export { IResponseOk, IResponseErr } from "./response.ts";
-export { IOwnError } from "./ownError.ts";
+export { IResponseOk, IResponseErr } from "./response";
+export { IOwnError } from "./ownError";
